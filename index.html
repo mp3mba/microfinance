@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Sherehe na Maafa</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <form id="groupForm border" action="" method="">
+            <h2>Sajili Kikundi</h2>
+            <div class="form-row border p-5">
+                <div class="form-group col-md-6">
+                    <label for="first_name">Group Name</label>
+                    <input
+                        type="text" 
+                        class="form-control"
+                        name="group_name" 
+                        id="group_name" 
+                        placeholder="Enter group name" 
+                    required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="first_name">Description</label>
+                    <textarea 
+                        class="form-control" 
+                        id="description" 
+                        rows="1" 
+                        name="description"
+                        placeholder="Enter description"
+                    ></textarea>
+                </div>
+                <div class="form-group d-flex justify-content-center" style="width: 100vw;">
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary w-50 rounded" 
+                        style="background-color: rgb(0, 0, 115);">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <div class="my-5"></div>
+
+        <form id="memberForm border my-5">
+            <div class="container border">
+
+                <h2>Register Member</h2>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="first_name">First Name</label>
+                        <input 
+                            type="text" 
+                            class="form-control" 
+                            id="first_name"
+                            name="first_name" 
+                            placeholder="Enter first name" 
+                            required
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="last_name">Last Name</label>
+                        <input 
+                            type="text" 
+                            class="form-control" 
+                            id="last_name"
+                            name="last_name" 
+                            placeholder="Enter last name" 
+                            required
+                        >
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="phone_number">Phone Number</label>
+                        <input 
+                            type="text" 
+                            class="form-control" 
+                            id="phone_number" 
+                            name="phone_number"
+                            placeholder="Enter phone number"
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input 
+                            type="email" 
+                            class="form-control" 
+                            id="email" 
+                            name="email"
+                            placeholder="Enter email"
+                        >
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="date_of_birth">Date of Birth</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="date_of_birth"
+                            name="date_of_birth"
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="gender">Gender</label>
+                        <select class="form-control" id="gender" name="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="address">Address</label>
+                        <input 
+                            class="form-control" 
+                            id="address" 
+                            name="address"
+                            rows="1" 
+                            placeholder="Enter address"
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="joining_date">Joining Date</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="joining_date" 
+                            name="joining_date"
+                        required>
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="salary">Salary</label>
+                        <input 
+                            type="number" 
+                            class="form-control" 
+                            id="salary" 
+                            name="salary"
+                            placeholder="Enter salary" 
+                        required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="contract_end_date">Contract End Date</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="contract_end_date"
+                            name="contract_end_date"
+                        >
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="status">Status</label>
+                        <select class="form-control" id="status" name="status">
+                            <option value="Active">Active</option>
+                            <option value="Inactive">Inactive</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="salary_type">Salary Type</label>
+                        <select class="form-control" id="salary_type" name="salary_type" required>
+                            <option value="Institute Financed">Institute Financed</option>
+                            <option value="Government Granted">Government Granted</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="width: 100vw;">
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary w-50 rounded" 
+                        style="background-color: rgb(0, 0, 115);">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <div class="my-5"></div>
+
+        <form id="memberForm border my-5">
+            <div class="container border">
+
+                <h2>Loans</h2>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="amount">Amount</label>
+                        <input 
+                            type="text" 
+                            class="form-control" 
+                            id="amount"
+                            name="amount" 
+                            placeholder="Enter amount" 
+                            required
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="interest_rate">Interest Rate</label>
+                        <input 
+                            type="text" 
+                            class="form-control" 
+                            id="interest_rate"
+                            name="interest_rate" 
+                            placeholder="Enter interest Rate" 
+                            required
+                        >
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="total_amount">Total Amount</label>
+                        <input 
+                            type="text" 
+                            class="form-control" 
+                            id="total_amount" 
+                            name="total_amount"
+                            placeholder="Enter phone number"
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="status">Status</label>
+                        <select class="form-control" id="status" name="status">
+                            <option value="active">Active</option>
+                            <option value="completed">Completed</option>
+                            <option value="defaulted">Defaulted</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="start_date">Start Date</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="start_date"
+                            name="start_date"
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="end_date">End Date</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="end_date"
+                            name="end_date"
+                        >
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="width: 100vw;">
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary w-50 rounded" 
+                        style="background-color: rgb(0, 0, 115);">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <div class="my-5"></div>
+
+        <form id="memberForm border my-5">
+            <div class="container border">
+
+                <h2>Payments</h2>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="payment_date">Payment Date</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="payment_date"
+                            name="payment_date"
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="amount">Amount</label>
+                        <input 
+                            type="text" 
+                            class="form-control" 
+                            id="amount"
+                            name="amount"
+                        >
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="width: 100vw;">
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary w-50 rounded" 
+                        style="background-color: rgb(0, 0, 115);">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <div class="my-5"></div>
+
+        <form id="memberForm border my-5">
+            <div class="container border">
+
+                <h2>Grants</h2>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="grant_type">Grant Type</label>
+                        <select class="form-control" id="status" name="status">
+                            <option value="marriage">Marriage</option>
+                            <option value="death">Death</option>
+                            <option value="contract_end">Contract End</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="grant_amount">Grant Amount</label>
+                        <input 
+                            type="text" 
+                            class="form-control" 
+                            id="grant_amount"
+                            name="grant_amount"
+                        >
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="grant_date">Grant Date</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="grant_date"
+                            name="grant_date"
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="grant_amount">Grant Amount</label>
+                        <textarea 
+                            type="text" 
+                            class="form-control" 
+                            id="grant_amount"
+                            name="grant_amount"
+                            rows="1"
+                        ></textarea>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="width: 100vw;">
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary w-50 rounded" 
+                        style="background-color: rgb(0, 0, 115);">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <div class="my-5"></div>
+
+        <form id="memberForm border my-5">
+            <div class="container border">
+
+                <h2>Penalties</h2>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="penalt_amunt">Penalt Amount</label>
+                        <input 
+                            type="text" 
+                            class="form-control" 
+                            id="penalt_amunt"
+                            name="penalt_amunt"
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="penalt_date">Penalt Date</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="penalt_date"
+                            name="penalt_date"
+                        >
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="reason">Reason</label>
+                        <textarea 
+                            type="date" 
+                            class="form-control" 
+                            id="reason"
+                            name="reason"
+                            rows="1"
+                        ></textarea>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="width: 100vw;">
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary w-50 rounded" 
+                        style="background-color: rgb(0, 0, 115);">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <div class="my-5"></div>
+
+        <form id="memberForm border my-5">
+            <div class="container border">
+
+                <h2>Transactions</h2>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="transaction_type">Transaction Type</label>
+                        <select class="form-control" id="status" name="status">
+                            <option value="loan_disbursement">Loan Disbursement</option>
+                            <option value="loan_payment">Loan Payment</option>
+                            <option value="grant_disbursement">Grant Disbursement</option>
+                            <option value="penalty_imposition">Penalty Imposition</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="amount">Amount</label>
+                        <input 
+                            type="text" 
+                            class="form-control" 
+                            id="reason"
+                            name="reason"
+                        >
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="transaction_date">Transaction Date</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="reason"
+                            name="transaction_date"
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="description">Description</label>
+                        <textarea 
+                            type="date" 
+                            class="form-control" 
+                            id="reason"
+                            name="description"
+                            rows="1"
+                        ></textarea>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="width: 100vw;">
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary w-50 rounded" 
+                        style="background-color: rgb(0, 0, 115);">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <div class="my-5"></div>
+
+        <form id="memberForm border my-5">
+            <div class="container border">
+
+                <h2>Events</h2>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="event_type">Event Type</label>
+                        <select class="form-control" id="status" name="status">
+                            <option value="marriage">Marriage</option>
+                            <option value="death">Death</option>
+                            <option value="contract_end">Contract End</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="event_date">Event Date</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="reason"
+                            name="event_date"
+                        >
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="transaction_date">Transaction Date</label>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="reason"
+                            name="transaction_date"
+                        >
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="description">Description</label>
+                        <textarea 
+                            type="date" 
+                            class="form-control" 
+                            id="reason"
+                            name="description"
+                            rows="1"
+                        ></textarea>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center" style="width: 100vw;">
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary w-50 rounded" 
+                        style="background-color: rgb(0, 0, 115);">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
